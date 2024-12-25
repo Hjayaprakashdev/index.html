@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='files/css/bootstrap.min.css')}}">
+</head>
+<body>
+    <section class="home">
+    <form action="/Register" method="POST" autocomplete="off">
+        <div class="col-md-offset-3 col-md-4" style="margin-top:50px">
+            <h3 class="page-header text-primary">Registration</h3>
+            <div class="form-group">
+                <br>
+                <input type="text" name="name" id="" placeholder="Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <br>
+                <input type="text" name="age" placeholder="Age" class="form-control" required>
+            </div>
+            <div class="form-group">
+          <br>
+                <input type="text" name="address" placeholder="Address" class="form-control" required>
+            </div>
+<div class="form-group">
+  <br>
+    <input type="text" name="contact" placeholder="Contact" class="form-control" required>
+  </div>
+<br>
+    <input type="text" name="mail" placeholder="Email" class="form-control" required>
+  </div>
+  <br>
+  <br>
+  <div class="form-group">
+    <input type="submit" name="submit" value="Submit" class="btn btn-success">
+    <input type="reset" value="Clear" class="btn btn-danger">
+    <a href="index.html">indexpage</a>
+  </div>
+  </div>
+  </form>
+</div> 
+</div>
+</section>
+
+  </body>
+  </html>
